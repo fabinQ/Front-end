@@ -1,3 +1,21 @@
 body {
-  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: royalblue;
+  font-family: sans-serif;
+}
+
+.test p {
+  color: #000;
+}
+
+.test span {
+  color: #000;
+}
+
+p {
+  font-size: 72px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

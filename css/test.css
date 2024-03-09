@@ -1,0 +1,61 @@
+p{
+    /* m10 */
+    margin: 10px;
+
+    /* m10-20-30 */
+    margin: 10px 20px 30px;
+
+    /* p10 */
+    padding: 10px;
+
+    /* p-10 */
+    padding: -10px;
+
+    /* p-10--20 */
+    padding: -10px -20px;
+
+    /* fz32 */
+    font-size: 32px;
+
+    /* fz10rem */
+    font-size: 10rem;
+
+    /* w50p */
+    width: 50%;
+
+    /* w50 */
+    width: 50px;
+
+    /* c#f */
+    color: #fff;
+
+    /* bgc */
+    background-color: #fff;
+
+    /* posa */
+    position: absolute;
+
+    /* posf */
+    position: fixed;
+
+    /* t0 */
+    top: 0;
+    bottom: 0;
+
+    /* db */
+    display: block;
+    /* df */
+    display: flex;
+
+    /* fwb */
+    font-weight: bold;
+
+    /* tt */
+    text-transform: uppercase;
+    
+    /* o */
+    overflow: hidden;
+
+    /* cu */
+    cursor: pointer;
+}
