@@ -1,0 +1,28 @@
+$first-color: gold;
+$secound-color: red;
+$width-box: 150px;
+$height-box: 200px;
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 95vh;
+	background-color: #333;
+	font-family: sans-serif;
+}
+
+.box {
+	margin: 20px auto;
+	width: $width-box;
+	height: $height-box;
+	border: 3px solid black;
+	border-radius: 25px;
+}
+.color1 {
+	background-color: $first-color;
+}
+.color2 {
+	background-color: $secound-color;
+}

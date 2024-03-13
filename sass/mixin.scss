@@ -55,13 +55,11 @@ body {
 	background-color: $bg-color;
 }
 
-
 .ready {
 	@include color(lime);
 	@include size(250px);
-	
 }
-.warning{
+.warning {
 	@include color(red);
 	@include size(300px);
 }
