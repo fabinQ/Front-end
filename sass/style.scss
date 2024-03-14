@@ -25,6 +25,21 @@ body {
 	@include addons;
 }
 
+@mixin color($bg-color) {
+	background-color: $bg-color;
+}
+
+
+.ready {
+	@include color(lime);
+	@include size(250px);
+	
+}
+.warning{
+	@include color(red);
+	@include size(300px);
+}
+
 @mixin test {
 	margin: 30px;
 	height: 200px;
@@ -49,19 +64,4 @@ body {
 
 .test3 {
 	@include test;
-}
-
-@mixin color($bg-color) {
-	background-color: $bg-color;
-}
-
-
-.ready {
-	@include color(lime);
-	@include size(250px);
-	
-}
-.warning{
-	@include color(red);
-	@include size(300px);
 }
