@@ -40,7 +40,8 @@ button {
 button:hover {
   color: #00ffae;
   box-shadow: 3px 3px 10px #00ffae;
-}/*# sourceMappingURL=style.css.map */.map */gin: 0 30px;
+}/*# sourceMappingURL=style.css.map */{
+  margin: 0 30px;
   padding: 10px 30px;
   background: none;
   border-radius: 5px;

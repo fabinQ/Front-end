@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: gold;
+}
+
+.circle {
+  margin: 30px auto;
+  width: 100px;
+  height: 100px;
+  background-color: lime;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 2.4em;
+  color: gold;
+}
+
+section {
+  height: 25vh;
+  text-align: center;
+}
+section a {
+  text-decoration: none;
+}/*# sourceMappingURL=debaging_code.css.map */
