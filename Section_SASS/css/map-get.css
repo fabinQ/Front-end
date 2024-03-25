@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  background-color: #333;
+  font-family: sans-serif;
+}
+
+.square {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+}
+
+.iteam1 {
+  background-color: rgb(3, 155, 3);
+}
+
+.iteam2 {
+  background-color: rgb(109, 93, 0);
+}
+
+.iteam3 {
+  background-color: rgb(119, 46, 34);
+}/*# sourceMappingURL=map-get.css.map */

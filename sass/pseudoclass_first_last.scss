@@ -7,10 +7,22 @@
 body {
 	margin: 50px;
 	font-family: "Montserrat", sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 	color: #fff;
 	background-color: #333;
 }
 div {
 	margin: 50px;
+}
+P:first-child{
+    color:lime
+}
+P:last-child{
+    color:gold;
+}
+p:first-of-type{
+    color: royalblue;
+}
+p:last-of-type{
+    color: tomato;
 }

@@ -1,0 +1,67 @@
+@mixin addons {
+	border-radius: 25px;
+	background-color: gold;
+}
+@mixin size($size) {
+	height: $size;
+	width: $size;
+}
+* {
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 10px;
+}
+
+body {
+	background-color: #333;
+	font-family: sans-serif;
+}
+
+.square {
+	margin: 30px;
+	width: 200px;
+	height: 200px;
+	border: 5px solid black;
+	@include addons;
+}
+
+@mixin color($bg-color) {
+	background-color: $bg-color;
+}
+
+
+.ready {
+	@include color(lime);
+	@include size(250px);
+	
+}
+.warning{
+	@include color(red);
+	@include size(300px);
+}
+
+@mixin test {
+	margin: 30px;
+	height: 200px;
+	width: 200px;
+	bottom: 5px solid black;
+	padding: 20px;
+	display: flex;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.test1 {
+	@include test;
+}
+
+.test2 {
+	@include test;
+}
+
+.test3 {
+	@include test;
+}

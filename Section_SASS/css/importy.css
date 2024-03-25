@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+}
+
+body {
+  margin: 15px;
+  background-color: #333;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 30px;
+}
+
+.square {
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: lime;
+}
+
+.ready {
+  background-color: royalblue;
+}
+
+.warning {
+  background-color: tomato;
+}/*# sourceMappingURL=importy.css.map */
