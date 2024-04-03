@@ -1,0 +1,47 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+}
+
+p {
+  margin: 100px;
+  text-align: center;
+}
+
+p::before {
+  content: "Cześć ";
+  color: lime;
+}
+
+p::after {
+  content: "! :)";
+  color: lime;
+}
+
+.hero-img {
+  position: relative;
+  margin: 100px auto;
+  width: 400px;
+  height: 500px;
+  background-image: url("https://images.pexels.com/photos/19964831/pexels-photo-19964831/free-photo-of-natura-ptak-czapla-dzika-przyroda.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(63, 172, 48, 0.4);
+}/*# sourceMappingURL=pseudoelements.css.map */
