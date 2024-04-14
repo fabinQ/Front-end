@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+}
+
+section {
+  display: flex;
+  height: 600px;
+  background-color: #678;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.square {
+  width: 25%;
+  text-align: center;
+}
+
+.one {
+  background-color: gold;
+}
+
+.two {
+  background-color: lime;
+}
+
+.three {
+  background-color: royalblue;
+}
+
+.four {
+  background-color: tomato;
+}/*# sourceMappingURL=zadanie-flexbox-2.css.map */
