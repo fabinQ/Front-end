@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+}
+
+table,
+td {
+  border: 1px solid white;
+  margin: 10px;
+}
+
+td {
+  width: 300px;
+  height: 100px;
+}
+
+tr:nth-child(odd) {
+  width: 300px;
+  height: 100px;
+  background-color: gray;
+}
+
+tr:nth-child(even) {
+  width: 300px;
+  height: 100px;
+  background-color: #ddd;
+}
+
+p:nth-child(3) {
+  color: lime;
+}
+
+p:nth-last-child(2n) {
+  color: royalblue;
+}/*# sourceMappingURL=pseudoclass_Nth-child_Nth-last-child.css.map */

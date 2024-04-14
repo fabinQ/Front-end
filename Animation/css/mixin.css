@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+}
+
+body {
+  background-color: #333;
+  font-family: sans-serif;
+}
+
+.square {
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: gold;
+}
+
+.test1 {
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  bottom: 5px solid black;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.test2 {
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  bottom: 5px solid black;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.test3 {
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  bottom: 5px solid black;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.ready {
+  background-color: lime;
+  height: 250px;
+  width: 250px;
+}
+
+.warning {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+}/*# sourceMappingURL=mixin.css.map */
