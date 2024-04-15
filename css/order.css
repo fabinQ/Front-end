@@ -7,27 +7,25 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  color: #fff;
   background-color: #333;
 }
 
 section {
   display: flex;
-  height: 600px;
-  background-color: #678;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
 }
 
 .square {
-  width: 20%;
-  height: 200px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
   text-align: center;
 }
 
 .one {
   background-color: gold;
+  flex: 0 1 300px;
+  flex: 1 0 300px;
+  /*flex: grow shrink basis*/
 }
 
 .two {
@@ -40,4 +38,4 @@ section {
 
 .four {
   background-color: tomato;
-}/*# sourceMappingURL=align-items.css.map */
+}/*# sourceMappingURL=order.css.map */

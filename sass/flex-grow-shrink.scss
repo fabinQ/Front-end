@@ -7,38 +7,33 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	font-size: 30px;
-	color: #fff;
 	background-color: #333;
 }
 
 section {
 	display: flex;
-	height: 600px;
-	background-color: #678;
-	// align-items: stretch;
-	// align-items: flex-start;
-	// align-items: flex-end;
-
-	// align-items: baseline;
-
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-end;
 }
 
 .square {
-	width: 20%;
-	height: 200px;
-	// line-height: 200px;
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
 	text-align: center;
 }
 
 .one {
 	background-color: gold;
-	// font-size: 100px;
+	// flex-grow: 1;
+	// Rozciągania do rodzica na zasadzie proporcji
+
+	// Włączona możliwość kurczenia się im wyższy poziom tym większy priorytet.
+	flex-shrink: 0;
 }
 .two {
 	background-color: lime;
+	// flex-grow: 3;
+
+	flex-shrink: 3;
 }
 .three {
 	background-color: royalblue;

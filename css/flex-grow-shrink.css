@@ -7,31 +7,28 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  color: #fff;
   background-color: #333;
 }
 
 section {
   display: flex;
-  height: 600px;
-  background-color: #678;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
 }
 
 .square {
-  width: 20%;
-  height: 200px;
+  width: 300px;
+  height: 100px;
+  line-height: 100px;
   text-align: center;
 }
 
 .one {
   background-color: gold;
+  flex-shrink: 0;
 }
 
 .two {
   background-color: lime;
+  flex-shrink: 3;
 }
 
 .three {
@@ -40,4 +37,4 @@ section {
 
 .four {
   background-color: tomato;
-}/*# sourceMappingURL=align-items.css.map */
+}/*# sourceMappingURL=flex-grow-shrink.css.map */

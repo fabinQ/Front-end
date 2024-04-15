@@ -12,20 +12,17 @@ body {
 }
 
 section {
-  display: flex;
-  height: 600px;
+  height: 250px;
   background-color: #678;
-}
-
-.first {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  margin: 10px;
 }
 
 .square {
-  width: 25%;
+  width: 100px;
+  height: 100px;
   text-align: center;
+  justify-content: center;
+  line-height: 100px;
 }
 
 .one {
@@ -42,4 +39,26 @@ section {
 
 .four {
   background-color: tomato;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.secound {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.third {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=zadanie-flexbox-2.css.map */
