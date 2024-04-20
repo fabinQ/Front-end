@@ -40,7 +40,8 @@ button {
 button:hover {
   color: #00ffae;
   box-shadow: 3px 3px 10px #00ffae;
-}/*# sourceMappingURL=style.css.map */.map */gin: 0 30px;
+}/*# sourceMappingURL=style.css.map */{
+  margin: 0 30px;
   padding: 10px 30px;
   background: none;
   border-radius: 5px;
@@ -57,24 +58,12 @@ section button:hover {
 }
 section .fas {
   transition: transform 0.6s, rotate 0.6s;
-}/*# sourceMappingURL=style.css.map */r::after {
-  right: -20px;
-  border-top-right-radius: 10px;
-}
-
-.car::before {
-  left: -20px;
-}
-
-.wheels {
-  position: absolute;
-  bottom: -10px;
+}/*# sourceMappingURL=style.css.map */ttom: -10px;
   width: 35px;
   height: 35px;
   background-color: black;
   border-radius: 50%;
   border: 2px dashed #999;
-  animation: wheels 2s infinite linear;
 }
 
 .front-wheel {
@@ -92,6 +81,17 @@ section .fas {
   height: 30px;
   width: 50px;
   background-color: blue;
+}
+
+.front-window {
+  right: 0;
+  border-top-right-radius: 9px;
+}
+
+.rear-window {
+  left: 0;
+  border-top-left-radius: 9px;
+}/*# sourceMappingURL=style.css.map */lor: blue;
 }
 
 .front-window {

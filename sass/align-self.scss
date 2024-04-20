@@ -12,11 +12,12 @@ body {
 
 section {
 	display: flex;
+	align-items: flex-end;
+	height: 200px;
+	border: 5px solid black;
 }
 
 .square {
-	// flex-basis: 300px;
-	// Nadpisuje ponieważ ma większy priorytet, jest zgodny z kierunkiem flex-direction
 	width: 100px;
 	height: 100px;
 	line-height: 100px;
@@ -25,16 +26,16 @@ section {
 
 .one {
 	background-color: gold;
-	order: 100;
 }
 .two {
 	background-color: lime;
-	order: 0;
+	// Align self nadajemy na dzieciach
+	align-self: center;
+	align-self: flex-start;
 }
 .three {
 	background-color: royalblue;
 }
 .four {
 	background-color: tomato;
-	order: -10;
 }

@@ -12,6 +12,9 @@ body {
 
 section {
   display: flex;
+  align-items: flex-end;
+  height: 200px;
+  border: 5px solid black;
 }
 
 .square {
@@ -23,12 +26,12 @@ section {
 
 .one {
   background-color: gold;
-  order: 100;
 }
 
 .two {
   background-color: lime;
-  order: 0;
+  align-self: center;
+  align-self: flex-start;
 }
 
 .three {
@@ -37,5 +40,4 @@ section {
 
 .four {
   background-color: tomato;
-  order: -10;
-}/*# sourceMappingURL=order.css.map */
+}/*# sourceMappingURL=align-self.css.map */
