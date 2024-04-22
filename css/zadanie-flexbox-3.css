@@ -42,23 +42,42 @@ section {
   flex-direction: column;
 }
 
-.first .two {
-  flex-grow: 10;
-}
-
+.first .two,
 .first .four {
   flex-grow: 10;
 }
 
 .second {
   align-items: center;
-  justify-content: space-evenly;
-}
-
-.second .square {
-  width: 20%;
+  justify-content: space-around;
 }
 
 .third {
   flex-direction: row-reverse;
+}
+
+.third .four {
+  order: 1;
+  flex-grow: 3;
+}
+
+.third .three {
+  order: 10;
+}
+
+.third .one {
+  flex-grow: 1;
+}
+
+.fourth {
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+.fourth .three {
+  align-self: center;
+}
+
+.fourth .two {
+  align-self: flex-start;
 }/*# sourceMappingURL=zadanie-flexbox-3.css.map */
