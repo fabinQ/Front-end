@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  font-size: 50px;
+  background-color: gold;
+  border: 3px solid black;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}/*# sourceMappingURL=wprowadzenie-flexbox.css.map */

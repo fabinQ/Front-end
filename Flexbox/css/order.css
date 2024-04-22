@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  background-color: #333;
+}
+
+section {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.one {
+  background-color: gold;
+  order: 100;
+}
+
+.two {
+  background-color: lime;
+  order: 0;
+}
+
+.three {
+  background-color: royalblue;
+}
+
+.four {
+  background-color: tomato;
+  order: -10;
+}/*# sourceMappingURL=order.css.map */

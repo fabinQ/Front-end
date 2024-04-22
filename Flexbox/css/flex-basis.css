@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  background-color: #333;
+}
+
+section {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.one {
+  background-color: gold;
+  flex: 0 1 300px;
+  flex: 1 0 300px;
+  /*flex: grow shrink basis*/
+}
+
+.two {
+  background-color: lime;
+}
+
+.three {
+  background-color: royalblue;
+}
+
+.four {
+  background-color: tomato;
+}/*# sourceMappingURL=flex-basis.css.map */
