@@ -40,36 +40,24 @@ button {
 button:hover {
   color: #00ffae;
   box-shadow: 3px 3px 10px #00ffae;
-}/*# sourceMappingURL=style.css.map */d {
-  position: absolute;
-  top: 30px;
-  height: 120px;
-  width: 100%;
-  background-color: gray;
+}/*# sourceMappingURL=style.css.map */.map */gin: 0 30px;
+  padding: 10px 30px;
+  background: none;
+  border-radius: 5px;
+  border: 2px solid #00cfff;
+  color: #00cfff;
+  box-shadow: 3px 3px 10px #00cfff;
+  font-size: 36px;
+  transition: color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
 }
-
-.car {
-  position: absolute;
-  top: -15px;
-  left: 200px;
-  height: 70px;
-  width: 150px;
-  background-color: tomato;
-  border-radius: 15px;
-  animation: car 8s ease-in infinite;
+section button:hover {
+  color: #00ffae;
+  box-shadow: 3px 3px 10px #00ffae;
 }
-
-.car::after,
-.car::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  width: 40px;
-  height: 35px;
-  background-color: tomato;
-}
-
-.car::after {
+section .fas {
+  transition: transform 0.6s, rotate 0.6s;
+}/*# sourceMappingURL=style.css.map */r::after {
   right: -20px;
   border-top-right-radius: 10px;
 }
