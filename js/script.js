@@ -75,7 +75,7 @@ for (let i = 0; i < colors.length + 1; i++) {
 
 function test(q, w) {
 	console.log("Funkcja modulo");
-	if (q % w) {
+	if (q % 2) {
 		console.log("nieparzysta");
 	} else {
 		console.log("parzysta");
@@ -88,3 +88,22 @@ console.log(multiplication);
 
 const arraySix = [...Array(6).keys()];
 console.log(arraySix);
+
+for (i = 0; i < arraySix.length; i++) {
+	console.log(arraySix[i]);
+}
+
+function mathematicFunction(a, b, c) {
+	return a + b * c;
+}
+
+multiplication = mathematicFunction(1, 2, 3);
+console.log(multiplication);
+
+if (arraySix.length > 5) {
+	console.log("True");
+} else {
+	console.log("False");
+}
+
+console.log(`Tablica z cyframi ma ${arraySix.length} elementów`);
