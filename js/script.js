@@ -107,3 +107,6 @@ if (arraySix.length > 5) {
 }
 
 console.log(`Tablica z cyframi ma ${arraySix.length} elementów`);
+
+const p2 = document.querySelector('p')
+console.log(p);
