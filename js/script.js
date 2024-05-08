@@ -108,5 +108,15 @@ if (arraySix.length > 5) {
 
 console.log(`Tablica z cyframi ma ${arraySix.length} elementów`);
 
-const p2 = document.querySelector('p')
-console.log(p);
+const p2 = document.querySelector("p.test");
+// querySelector pobiera jeden pierwszy element
+console.log(p2);
+
+const btn = document.querySelector("button#btn");
+console.log(btn);
+
+const liItems = document.querySelectorAll("li");
+console.log(liItems[0]);
+
+const pItems = document.querySelectorAll("p");
+console.log(pItems);
