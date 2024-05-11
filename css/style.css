@@ -5,77 +5,60 @@
 }
 
 body {
+  height: 100vh;
   font-family: "Montserrat", sans-serif;
-  font-size: 36px;
-  color: #fff;
   background-color: #333;
-  overflow: hidden;
 }
 
-.sky {
-  position: relative;
-  height: 60vh;
-  background-color: royalblue;
-  animation: sky 8s linear infinite;
+.buttons {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
 }
 
-.sun {
-  position: absolute;
-  top: 50px;
-  left: 100px;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  background-color: orange;
-  box-shadow: 0 0 70px yellow;
-  animation: sun 8s infinite linear;
+.text {
+  margin-top: 200px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
 }
 
-.ground {
-  position: relative;
-  bottom: 0;
-  height: 40vh;
-  background-color: #4a3535;
+button {
+  margin: 0 30px;
+  padding: 10px 30px;
+  background: none;
+  border-radius: 5px;
+  border: 2px solid #00cfff;
+  color: #00cfff;
+  box-shadow: 3px 3px 10px #00cfff;
+  font-size: 36px;
+  transition: color 0.3s, box-shadow 0.3s;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
-.grass {
-  position: absolute;
-  top: 0;
-  height: 200px;
-  width: 100%;
-  background-color: lime;
+button:hover {
+  color: #00ffae;
+  box-shadow: 3px 3px 10px #00ffae;
+}/*# sourceMappingURL=style.css.map */{
+  margin: 0 30px;
+  padding: 10px 30px;
+  background: none;
+  border-radius: 5px;
+  border: 2px solid #00cfff;
+  color: #00cfff;
+  box-shadow: 3px 3px 10px #00cfff;
+  font-size: 36px;
+  transition: color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
 }
-
-.road {
-  position: absolute;
-  top: 30px;
-  height: 120px;
-  width: 100%;
-  background-color: gray;
+section button:hover {
+  color: #00ffae;
+  box-shadow: 3px 3px 10px #00ffae;
 }
-
-.car {
-  position: absolute;
-  top: -15px;
-  left: 200px;
-  height: 70px;
-  width: 150px;
-  background-color: tomato;
-  border-radius: 15px;
-  animation: car 8s ease-in infinite;
-}
-
-.car::after,
-.car::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  width: 40px;
-  height: 35px;
-  background-color: tomato;
-}
-
-.car::after {
+section .fas {
+  transition: transform 0.6s, rotate 0.6s;
+}/*# sourceMappingURL=style.css.map */r::after {
   right: -20px;
   border-top-right-radius: 10px;
 }
